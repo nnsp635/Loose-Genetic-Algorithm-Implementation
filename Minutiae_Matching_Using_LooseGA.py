@@ -57,7 +57,7 @@ def crossnum(skel):
 #title Orientation Field
 def orientationField(img,sigma):#img is cropped but not binary
     Gx = sobel_v(img)
-    GX = np.array(Gx)
+    Gx = np.array(Gx)
     Gy = sobel_h(img)
     Gy = np.array(Gy)
     
