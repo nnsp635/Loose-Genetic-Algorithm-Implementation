@@ -279,7 +279,7 @@ def initPop(size_pop,nt,nq):
     assert nq>0
     assert nt>0
     pop = []
-    while(len(pop)<20):
+    while(len(pop)<size_pop):
         pop += [GAString(nt,nq)]
         pop = list(set(pop))
     return pop
